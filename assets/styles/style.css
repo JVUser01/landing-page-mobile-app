@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1858c8, #3880ff);
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_logo_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.header_logo_menu .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_menu .logo a {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.header_logo_menu .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_menu .menu nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header_logo_menu .menu nav ul a {
+    padding: 8px 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 3px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.header_logo_menu .menu nav a:hover {
+    border-color: #FFFFFF;
+}
+
+.header_logo_menu .menu nav ul .selected {
+    border-color: #FFFFFF;
+}
+
+.app_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.app_desc .app_desc_text {
+    width: 448px;
+}
+
+.app_desc .app_desc_text h1{
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.app_desc .app_desc_text h2 {
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.app_desc .download_buttons {
+    display: flex;
+}
+
+.app_desc .download_buttons a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.app_desc .download_buttons a img {
+    width: 20px;
+    margin-right: 6px;
+}
+
+.app_desc .download_buttons a h4 {
+    margin: 0;
+}
+
+.app_desc .app_desc_image img {
+    width: 240px;
+}
+
+.app_desc .download_buttons .playstore_button {
+    margin-right: 10px;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+}
+
+.features_desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_desc h1 {
+    font-size: 26px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.features_desc p {
+    font-size: 14px;
+    width: 366px;
+}
+
+.features_items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.features_items div {
+    width: 260px;
+}
+
+.features_items div h3 {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.features_items div p {
+    font-size: 13px;
+}
+
+.features_items div img {
+    width: 65px;
+}
+
+#statistics {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1858c8, #3880ff);
+}
+
+#statistics .container {
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#statistics .statistics_images {
+    display: flex;
+}
+
+#statistics .statistics_images .statistics_image1 {
+    width: 240px;
+    position: relative;
+    z-index: 1;
+}
+
+#statistics .statistics_images .statistics_image2 {
+    width: 220px;
+    height: 360px;
+    position: relative;
+    left: -60px;
+    top: 41px;
+}
+
+#statistics .statistics_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+#statistics .statistics_desc h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#statistics .statistics_desc p {
+    font-size: 13px;
+}
+
+#download_section {
+    display: flex;
+    justify-content: center;
+}
+
+#download_section .download_section_desc {
+    text-align: center;
+}
+
+#download_section .download_section_desc h1 {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+#download_section .download_section_desc p {
+    margin-bottom: 20px;
+}
+
+.download_section_buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.download_section_buttons a {
+    background-color: #1858c8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.download_section_buttons img {
+    width: 20px;
+    margin-right: 6px;
+}
+
+.download_section_buttons h4 {
+    margin: 0;
+}
+
+.download_section_buttons .playstore_button {
+    margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #181818;
+    color: #777777;
+}
+
+footer .container {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #999999;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+.header_logo_menu .mobile_menu {
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+
+.header_logo_menu .mobile_menu div {
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 703px;
+    }
+
+    .app_desc .app_desc_text {
+        width: 378px;
+    }
+
+    .features_items div h3 {
+        font-size: 17px;
+    }
+
+    .features_items div p {
+        font-size: 12px;
+    }
+
+    footer span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .container {
+        width: 333px;
+    }
+
+    .header_logo_menu .mobile_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .header_logo_menu .menu nav ul {
+        display: none;
+    }
+
+    .app_desc {
+        flex-direction: column;
+    }
+
+    .app_desc .app_desc_text {
+        width: 300px;
+        margin-bottom: 24px;
+    }
+
+    .app_desc .download_buttons {
+        justify-content: center;
+    }
+
+    .features_desc p {
+        width: 256px;
+    }
+
+    .features_items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #statistics .container {
+        flex-direction: column;
+    }
+
+    #statistics .statistics_images .statistics_image1 {
+        width: 184px;
+    }
+
+    #statistics .statistics_images .statistics_image2 {
+        width: 166px;
+        height: 268px;
+    }
+
+    #statistics .statistics_desc {
+        margin-top: 14px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer span {
+        padding: 2px;
+    }
+}
