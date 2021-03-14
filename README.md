@@ -2,17 +2,19 @@
 
 Landing page simples de um aplicativo mobile fictício
 
-# :clipboard: Tabela de conteúdos
+# Tabela de conteúdos
 
-* [Demonstração do site](#mag-Demonstração-do-site)
+* [Demonstração do site](#gear-Demonstração-do-site)
 * [Tecnologias](#computer-Tecnologias)
 * [Licensa](#page_facing_up-Licensa)
 
-# :mag: Demonstração do site
+# :gear: Demonstração do site
+
+Acesse o site aqui: https://jvuser01.github.io/landing-page-mobile-app/
 
 ## Desktop screenshots
 
-<div style="display:flex;">
+<div>
     <img src="screenshots/layout-desktop-1.png" alt="Layout desktop" width="350px"/>
     <img src="screenshots/layout-desktop-2.png" alt="Layout desktop" width="350px"/>
     <img src="screenshots/layout-desktop-3.png" alt="Layout desktop" width="350px"/>
@@ -21,7 +23,7 @@ Landing page simples de um aplicativo mobile fictício
 
 ## Mobile screenshots
 
-<div style="display: flex;">
+<div>
     <img src="screenshots/layout-mobile-1.png" alt="Layout desktop" width="180px"/>
     <img src="screenshots/layout-mobile-2.png" alt="Layout desktop" width="180px"/>
     <img src="screenshots/layout-mobile-3.png" alt="Layout desktop" width="180px"/>
